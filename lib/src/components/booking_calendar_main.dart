@@ -101,6 +101,7 @@ class _BookingCalendarMainState extends State<BookingCalendarMain> {
                 children: [
                   CommonCard(
                     child: TableCalendar(
+                      locale: 'ru'
                       firstDay: DateTime.now(),
                       lastDay: DateTime.now().add(const Duration(days: 1000)),
                       focusedDay: _focusedDay,
